@@ -1,26 +1,43 @@
 # CSE-3206-lab1
 # OOP project updated
- 
-# Multithreaded File Searcher in C++
 
-This project demonstrates a complex C++ application that recursively searches for a keyword in all files under a specified directory using multithreading and modern C++ features.
+# MyCash OOP Banking Simulation in C++
+
+This project is a console-based banking simulation system called "MyCash," built using Object-Oriented Programming in C++. It allows users to register, log in, update their profile, send money, cash-in, cash-out, pay bills, and check their balance securely.
 
 ## Features
-- Uses C++17 (`std::filesystem`, `std::thread`, `std::mutex`, `std::atomic`)
-- Efficiently searches files in parallel
-- Prints matches with file and line number
-- Thread-safe output
+- User registration and login with mobile number and PIN
+- Secure OTP verification for sensitive operations
+- Update and remove user profile
+- Send money, cash-in, cash-out, pay bills
+- Check account balance
+- Simple transaction history (structure in place)
+- Uses OOP principles: classes, encapsulation, static members
 
 ## How to Run
-1. Compile with a C++17 compatible compiler (e.g., g++ -std=c++17)
-2. Run the executable and provide the directory and keyword when prompted
+1. Compile with a C++ compiler (e.g., g++ main.cpp -o main.exe)
+2. Run the executable:
+	- Register with your mobile number, name, and PIN
+	- Log in and access banking features via menu
 
 ## Example Usage
 ```
-Enter directory to search: ./source_code
-Enter keyword to search for: main
-Found in ./source_code/main.cpp at line 10: int main() {
-Searched 25 files.
+*** MyCash Login***
+1. Login
+2. Register
+3. Exit
+Enter Your Option(1-3):
+
+******** MyCash Menu ********
+1. Update Me
+2. Remove Me
+3. Send Money
+4. Cash-in
+5. Cash-out
+6. Pay Bill
+7. Check Balance
+8. History
+9. Logout
 ```
 
 ## Author
